@@ -10,7 +10,7 @@ public class FilesRead {
 
 
 		public static void main(String[] args) throws IOException {
-			
+			int a=1;
 //			Scanner sc = new Scanner(System.in);
 //			System.out.println("Enter the name to be filled in file: ");
 //			String name = sc.nextLine();
