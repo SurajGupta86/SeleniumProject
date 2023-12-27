@@ -32,14 +32,14 @@ public class FilesWrite {
 		String surname ="Singh";
 		String para = " Once upon a time there was a king, simba, who is " +
 				"taken care by 'Timon' and 'pumba'";
-		//int a=6;
+		int a=6;
 		bw.write(name);   //Taking user input and passing it in the file
 		bw.newLine();  //creating a new line using method of BufferedWriter
 		bw.write(surname);
 		bw.newLine();
 		bw.write(para);
 		bw.newLine();
-		//bw.write(a);
+		bw.write(Integer.toString(a));
 		
 		//closing the last stream
 		bw.close();
