@@ -13,6 +13,8 @@ public class reverseString {
 		for(int i=str.length()-1;i>=0;i--) {
 			rev =rev + str.charAt(i);
 		}
+		
+		System.out.println("Enter the character to search in a string: ");
 		char c=sc.next().charAt(0);    //Take a character as a input from the user
 		sc.close();
 		for(int i=0;i<str.length();i++){

@@ -27,7 +27,7 @@ public class FilesRead {
 			String line=null;  //Take a string variable to store the values from text file
 			
 			for(int i=0; i<10;i++) {
-				if(i==8) {          //To print a specific line using for loop condition
+				if(i==3) {          //To print a specific line using for loop condition
 					text=br.readLine();         //store the particular line value to the text string
 					
 				}
