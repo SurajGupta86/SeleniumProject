@@ -14,6 +14,7 @@ public class ArrayListIntCode {
 		lt.add(20);
 		lt.add(30);
 		lt.add(null);  //null value can be considered as a integer value
+		lt.add(30);    //duplicate values allowed
 		
 		lt.remove(1);
 		lt.add(1, 40);

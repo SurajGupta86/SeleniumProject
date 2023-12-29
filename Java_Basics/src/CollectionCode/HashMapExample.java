@@ -17,11 +17,13 @@ public class HashMapExample {
 		map.put(3, "Java");
 		map.put(4, "80");
 		map.put(5, "Surya");
+		map.put(3, "Java1");  //Updates the value in the map with the latest one if there are similar values to a particular key
+		map.put(2, "10");     //No duplicates allowed
 		
 		System.out.println(map);
 		System.out.println(map.size());
 		
-		System.out.println(map.get(6)); //will print the null value
+		System.out.println(map.get(5)); //will print the null value
 		
 		Set<Integer> keys = map.keySet();
 		

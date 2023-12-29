@@ -5,7 +5,7 @@ import java.util.*;
 
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
-			HashSet<String> set=new HashSet<String>();  //Create a set of integer data-type
+			Set<String> set=new HashSet<String>();  //Create a set of integer data-type
 			//HashSet<String> set=new HashSet();
 			
 			set.add("Ajay");
