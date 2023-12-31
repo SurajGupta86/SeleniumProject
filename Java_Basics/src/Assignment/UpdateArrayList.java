@@ -29,14 +29,20 @@ public class UpdateArrayList {
 		System.out.println("the list using advance for loop: ");
 		for(String str: arr) {
 			System.out.println(str);
-			
+		}	
 		//Print the list using iterator
 			System.out.println("the list using iterator: ");	
 		Iterator<String> itr = arr.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
-	}
-}
+		
+		
+		//arr.remove(4);  //removing the last element
+		int index=arr.indexOf("Purple");
+		arr.set(index, "Black");  //updating the value by giving the location and value to be replaced without deleting the value
+		System.out.println(arr.size());
+		System.out.println(arr);
 
+	}
 }
