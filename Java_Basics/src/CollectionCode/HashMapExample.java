@@ -23,7 +23,7 @@ public class HashMapExample {
 		System.out.println(map);
 		System.out.println(map.size());
 		
-		System.out.println(map.get(2)); //will print the null value
+		System.out.println(map.get(2)); //will print the last updated value
 		
 		Set<Integer> keys = map.keySet();
 		
