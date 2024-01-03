@@ -21,7 +21,7 @@ public class SecondHighestNo {
 		sc.close();
 		//1st method
 		Arrays.sort(arr);    //Using Array collections
-		System.out.println("The 2nd highest number: "+arr[arr.length-2]);
+		System.out.println("The 2nd highest number: "+arr[n-2]);
 		
 		//2nd method
 		int max ;
@@ -38,6 +38,6 @@ public class SecondHighestNo {
 		for(int i=0;i<arr.length;i++) {
 			System.out.println(arr[i]);       //print the array after sorting them in ascending order
 		}
-		System.out.println("The 2nd highest number in an array is: "+arr[arr.length-2]); //Print the 2nd last element from the array which will be the second highest
+		System.out.println("The 2nd highest number in an array is: "+arr[n-2]); //Print the 2nd last element from the array which will be the second highest
 	}
 }
