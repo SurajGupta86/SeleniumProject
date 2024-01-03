@@ -5,7 +5,7 @@ package oopsconcept;
 public class BaseClass {
 	public int AccNumber=1234;
 	private int PinNo=2468;
-	private long balanceamount=10000;	
+	private long balanceamount=20000;	
 	
 	public static void main(String[] args) {
 		 
@@ -47,7 +47,7 @@ public class BaseClass {
 						System.out.println("Balance Left: "+balanceamount);
 					}
 					else {
-						System.out.println("The current bank balance amount is "+balanceamount+"."+"Please maintain atleast 'Rs.5000' in account and then withdraw money without any hesitation");			
+						System.out.println("The current bank balance amount is "+balanceamount+"."+"Please maintain atleast 'Rs.5000' in account and then withdraw money without any extra charge");			
 					}
 			}
 			else {
