@@ -9,7 +9,7 @@ public class FiboCode {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number to print fibo series: ");
 		int n = sc.nextInt();
-		int a=0,b=1;
+		int a=0,b=1;   //Initialize first 2 numbers of fibo series
 		System.out.print("The fibonacci series:");
 		for(int i=0;i<n;i++) {
 			System.out.print("\t"+a);
