@@ -16,10 +16,10 @@ public class ArmstrongNo {
 			n=n/10;
 		}
 		if(sum==temp){
-			System.out.println(sum+" is an armstrong no.");
+			System.out.println(temp+" is an armstrong no.");
 		}
 		else {
-			System.out.println(sum+" is not an armstrong no.");
+			System.out.println(temp+" is not an armstrong no.");
 		}
 	}
 
