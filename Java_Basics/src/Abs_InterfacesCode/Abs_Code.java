@@ -15,6 +15,7 @@ public class Abs_Code extends AbstractionCode{
 		obj.open();  //Calling a methods
 		obj.read();
 		obj.update(s);
+		obj.close();
 		
 	}
 
