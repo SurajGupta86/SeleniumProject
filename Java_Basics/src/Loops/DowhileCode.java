@@ -5,7 +5,7 @@ public class DowhileCode {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-			int i=0;
+			int i=1;
 			System.out.println("The numbers from 1 to 100 which are divisible by 5 are: ");
 				
 			do {                    
