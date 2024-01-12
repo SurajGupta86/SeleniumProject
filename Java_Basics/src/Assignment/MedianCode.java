@@ -41,12 +41,12 @@ public class MedianCode {
 		
 		//The elements are even then if will execute
 		if(n%2==0) {
-			System.out.println("The median of the even number is : "+(float)(arr[(n/2)-1]+arr[((n+2)/2)-1])/2);       //Since Array starts with index '0'
+			System.out.println("The median of the even number is : "+(float)(arr[(n/2)-1]+arr[(n/2)])/2);       //Since Array starts with index '0'
 		}
 		//The elements are odd then else will execute
 		else {
-			
-			System.out.println("The median of the given array is : "+arr[(n)/2]);
+			 
+			System.out.println("The median of the given array is : "+arr[(n-1)/2]);
 		}
 	}
 }

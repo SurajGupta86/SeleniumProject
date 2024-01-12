@@ -6,6 +6,7 @@ public class TestSubClassA extends TestClass{
 		//super();                         //For calling a constructor method we use 'Super' keyword ie-> super.methodname();
 		System.out.println("Constructor method_A");
 	}
+
 	
 	@Override
 	public void TestClass1(String s) {
