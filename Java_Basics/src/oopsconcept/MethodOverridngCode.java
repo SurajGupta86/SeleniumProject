@@ -10,6 +10,7 @@ public class MethodOverridngCode extends MethodOverloadingCode{
 	
 	@Override
 	public void add(String c, int d) {
+		//super.add("Hi", 6);
 		String f= c+" "+(5+d);
 		System.out.println(f);
 		
