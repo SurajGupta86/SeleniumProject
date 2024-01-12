@@ -12,8 +12,8 @@ public class MethodsCode {
 		System.out.println("Sum of 2 no.s are "+ sum);
 	}
 	public void Add1(int a, int b, int c) {
-		MethodsCode obj1 = new MethodsCode();
-		obj1.Add(3, 4);
+		MethodsCode obj = new MethodsCode();
+		obj.Add(3, 4);
 		int sum=a+b+c;
 		System.out.println("Sum of 3 no.s are "+ sum+" ");
 		System.out.println(m);
