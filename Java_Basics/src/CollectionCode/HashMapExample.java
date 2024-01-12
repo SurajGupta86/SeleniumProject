@@ -25,9 +25,9 @@ public class HashMapExample {
 		
 		System.out.println(map.get(2)); //will print the last updated value
 		
-		Set<Integer> keys = map.keySet();
+	//	Set<Integer> keys = map.keySet();
 		
-		for(Integer key:keys) {
+		for(Integer key : map.keySet()) {
 			System.out.println(key+"="+map.get(key));
 			
 		}

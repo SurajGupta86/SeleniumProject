@@ -26,24 +26,24 @@ public class FilesRead {
 			
 			String line=null;  //Take a string variable to store the values from text file
 			
-			for(int i=0; i<10;i++) {
-				if(i==3) {          //To print a specific line using for loop condition
-					text=br.readLine();         //store the particular line value to the text string
-					
-				}
-				else {
-					br.readLine();
-				}
-			}
-			System.out.println(text);
-			
+//			for(int i=0; i<10;i++) {
+//				if(i==3) {          //To print a specific line using for loop condition
+//					text=br.readLine();         //store the particular line value to the text string
+//					
+//				}
+//				else {
+//					br.readLine();
+//				}
+//			}
+//			System.out.println(text);
+//			
 			//System.out.println(br.readLine());  //Will print the first line from the file 
 			
 			//read inside the file
-//			while((line=br.readLine())!=null) {
-//			
-//				System.out.println(line);           //Prints all the line from the file 
-//			}
+			while((line=br.readLine())!=null) {
+			
+				System.out.println(line);           //Prints all the line from the file 
+			}
 			//Close the stream
 			br.close();
 			
