@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
-	public static void main(String[] args) {
+	public static void main(String[] adjn) {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to the calculator \n");
 		//System.out.println();

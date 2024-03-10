@@ -5,8 +5,7 @@ public class reverseString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int count=0;
-		Scanner sc =new Scanner(System.in);
-		
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the string to be reversed: ");
 		String str= sc.nextLine();    //Take a string as a input from the user
 		String rev="";
