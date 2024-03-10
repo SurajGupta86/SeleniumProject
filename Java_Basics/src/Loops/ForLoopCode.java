@@ -21,13 +21,13 @@ public class ForLoopCode {
 		}
 		
 		// outer loop to handle rows
-//		for(int i=1;i<=n;i++){                          
-//			// inner loop to handle columns
-//			for(int j=n;j>=i;j--) {
-//				System.out.print('*');
-//			}
-//				System.out.println();	       // printing new line for each row 
-//		}
+		for(int i=1;i<=n;i++){                          
+			// inner loop to handle columns
+			for(int j=n;j>=i;j--) {
+				System.out.print('*');
+			}
+				System.out.println();	       // printing new line for each row 
+		}
 		
 	}
 
