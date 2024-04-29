@@ -12,7 +12,7 @@ public class ArmstrongNo {
 		int temp=n;
 		while(n>0) {
 			rem=(n%10);
-			sum =(int) (sum+Math.pow(rem,p));
+			sum = (int) (sum+Math.pow(rem,p));
 			n=n/10;
 		}
 		if(sum==temp){
