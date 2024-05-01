@@ -50,7 +50,8 @@ public class ArraylistCode{
 		}
 		
 		int var = (Integer) list.get(0);  //Type casting the 'object' datatype to integer
-		System.out.println(20+var);
+		System.out.println
+		(20+var);
 		
 		
 		
